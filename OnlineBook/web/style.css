@@ -1,0 +1,119 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation styles */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list li {
+    font-size: 18px;
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 200px;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Book card styles */
+.book-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.book-card img {
+    max-width: 10%; /* Adjust the max-width of the image */
+    height: 10%;
+}
+
+.details {
+    flex-grow: 1; /* Allow content to take up remaining space */
+}
+
+.book-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0; /* Reset margin */
+}
+
+.book-author {
+    font-style: italic;
+    color: #555;
+    margin: 0; /* Reset margin */
+}
+
+.book-description {
+    color: #777;
+    margin: 0; /* Reset margin */
+}
+
+.book-price {
+    font-weight: bold;
+    color: #333;
+    margin: 0; /* Reset margin */
+}
+
+/* ... (other styles) ... */
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}

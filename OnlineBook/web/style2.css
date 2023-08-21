@@ -1,0 +1,84 @@
+/* Reset and basic styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: -40px;
+    transition: 0.3s;
+}
+
+.user-profile img {
+    max-width: 100px;
+    border-radius: 5%;
+    margin: 0 auto 10px;
+    display: block;
+}
+.user-profile h2{
+     margin-bottom: 30px;
+}
+.user-profile p{
+     margin-bottom: 30px;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 30px; /* Increased margin for more spacing */
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: #1a73e8;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+    float: left;
+    width: calc(100% - 250px);
+}
+
+/* Header styles */
+.header {
+    background-color: #1a73e8;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Add more styles here for other elements as needed */
+
+/* Your existing CSS code */
